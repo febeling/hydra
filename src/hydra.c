@@ -52,7 +52,7 @@ hydra_new (const char *directory)
         directory = ".hydra";
 
     //  Create directory if necessary
-    if (zsys_file_mode (directory) == -1)
+    if (zsys_file_mode (directory) == (mode_t) -1)
         zsys_dir_create (directory);
 
     //  Switch to working directory, or die trying
