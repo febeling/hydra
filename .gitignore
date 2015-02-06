@@ -75,3 +75,8 @@ doit
 # Qt application build environment files
 app/*.pro.user
 build-hydra-*/
+
+# iOS
+/app/ios/Hydra/Build/
+/app/ios/Hydra/DerivedData/
+/app/ios/Hydra/frameworks/
