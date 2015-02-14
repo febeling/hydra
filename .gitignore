@@ -80,3 +80,5 @@ build-hydra-*/
 /app/ios/Hydra/Build/
 /app/ios/Hydra/DerivedData/
 /app/ios/Hydra/frameworks/
+/notes.org
+/.hydra2/
